@@ -1,0 +1,16 @@
+.caption__title {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #fecda7;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 550px) {
+    .caption__title {
+        margin-left: 10px;
+        
+    }
+}

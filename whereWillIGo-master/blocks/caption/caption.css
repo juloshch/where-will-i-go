@@ -1,0 +1,13 @@
+@media screen and (max-width: 550px) {
+   .capion {
+       margin-left: 10px;
+       
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .capion {
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }

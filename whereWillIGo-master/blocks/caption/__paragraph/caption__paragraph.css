@@ -1,0 +1,46 @@
+.capion__paragraph {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    margin-top: 28px;
+    margin-right: 120px;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1279px) {
+    .capion__paragraph {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-right: 90px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .capion__paragraph {
+        /* margin-right: 70px; */
+        /* margin-left: 10px; */
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .capion__paragraph {
+        margin-right: 70px;
+        margin-left: 10px;
+        font-size: 17px;
+        line-height: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .capion__paragraph {
+        text-align: center;
+        font-size: 17px;
+        line-height: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

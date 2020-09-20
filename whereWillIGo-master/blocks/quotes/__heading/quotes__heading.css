@@ -1,0 +1,9 @@
+.quotes__heading {
+    line-height: 1.15;
+    font-size: 12px;
+    font-weight: 800;
+    /* letter-spacing: ; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }

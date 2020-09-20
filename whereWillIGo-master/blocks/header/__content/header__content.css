@@ -1,0 +1,13 @@
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ @media screen and (max-width: 320px) {
+    .header__content {
+        align-items: flex-start;
+        max-width: 280px;
+        margin: auto;
+    }
+}

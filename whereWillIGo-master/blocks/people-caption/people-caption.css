@@ -1,0 +1,13 @@
+.people-caption {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    max-width: 600px;
+    /* margin-left: calc((100% - 1000px)/2); */
+}
+
+@media screen and (max-width: 320px) {
+    .people-caption {
+        margin-bottom: 0px;
+    }
+}
